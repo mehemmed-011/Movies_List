@@ -51,6 +51,7 @@
   text-decoration: none;
   border: 1px solid lightgray;
   border-radius: 0.5vw;
+  font-size: 2.5vw;
 }
 
 .listDetails-movies-remove {

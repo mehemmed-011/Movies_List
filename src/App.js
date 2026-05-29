@@ -19,7 +19,7 @@ export default function App() {
   }
 
   function removeList(id) {
-    setFavoriteLists((prev) => prev.filter((list) => list.id !== id));
+    setFavoriteLists((prev) => prev.filter((list) => list.id != id));
   }
 
   return (

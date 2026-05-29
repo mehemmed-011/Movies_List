@@ -38,7 +38,7 @@ export default function Main({ createList }) {
   }
 
   function removeFavorite(imdbID) {
-    setFavorites(favorites.filter((item) => item.imdbID !== imdbID));
+    setFavorites(favorites.filter((item) => item.imdbID != imdbID));
   }
   return (
     <>
@@ -59,9 +59,7 @@ export default function Main({ createList }) {
       <section className="second-section">
         <div className="movie-box">
           {films.map((item) => {
-            let isFavorite = favorites.some(
-              (fav) => fav.imdbID === item.imdbID
-            );
+            let isFavorite = favorites.some((fav) => fav.imdbID == item.imdbID);
 
             return (
               <div key={item.imdbID} className="movies">

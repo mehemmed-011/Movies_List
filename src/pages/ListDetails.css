@@ -62,8 +62,9 @@
   color: white;
   border: 1px solid black;
   border-radius: 50%;
-  width: 2.5vw;
-  height: 2.5vw;
+  width: 3vw;
+  height: 3vw;
+  font-size: 2vw;
 }
 
 .listDetails-movies-remove:hover {
